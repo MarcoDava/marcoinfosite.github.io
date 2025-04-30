@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    height:100vh;
+    background-color: #5F5F5F;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main{
+    min-height:90vh;
+    margin:0; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+ }
+
+.main-container {
+    width: 1140px;
+    height: 629px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #2D2D2D;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+    border-radius: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:80%;
+    width: 50%;
+}
+
+.profile-picture > img{
+    width:422px;
+    length: 579px;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 75%;
+}
+
+.buttons > a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.buttons > a > img{
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.linkedin-anchor{
+    background-color: #69B4FF;
+    color:#e1e1e1;
+}
+.gmail-anchor{
+    background-color: #e1e1e1;
+    color:rgb(44, 44, 44);
+}
+
+footer{
+    background-color: #404040;
+    width:100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.footer-container > a > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
